@@ -8,16 +8,16 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div>
               <p className="text-sm text-muted-foreground mb-1">Meu contato:</p>
-              <p className="text-lg font-semibold text-foreground">12 988888888</p>
+              <p className="text-lg font-semibold text-foreground">22 992080811</p>
             </div>
             <div>
               <p className="text-sm text-muted-foreground mb-1">Email:</p>
-              <p className="text-lg font-semibold text-foreground">xxx@xyz.com</p>
+              <p className="text-lg font-semibold text-foreground">frederico.luna06@gmail.com</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/fredseteA" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-foreground hover:text-muted-foreground transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/fredericol/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-foreground hover:text-muted-foreground transition-colors"
