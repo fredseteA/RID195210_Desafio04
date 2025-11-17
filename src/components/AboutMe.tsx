@@ -3,20 +3,20 @@ import { Github, Linkedin, Globe } from "lucide-react";
 const AboutMe = () => {
   const timeline = [
     {
-      year: "2018",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      year: "2022",
+      description: "Em 2022, eu ainda era estudante do ensino médio, começando a descobrir meu interesse pela área de tecnologia. Foi nesse período que passei a considerar seriamente seguir um caminho profissional em informática e cogitei prestar o processo seletivo para o curso técnico em Informática do Instituto Federal. Esse ano marcou o início da minha curiosidade por programação, computadores e desenvolvimento, mesmo sem ainda ter dado meus primeiros passos formais na área."
     },
     {
-      year: "2019",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      year: "2023",
+      description: "Em 2023, dei meu primeiro passo concreto rumo à carreira que desejava ao ingressar no curso técnico em Informática do IFF. Durante esse ano, tive contato com fundamentos essenciais de programação, redes, hardware e lógica computacional. Foi um período de muita descoberta, em que percebi que realmente gostava de construir soluções e entender como sistemas funcionam. Esse ano consolidou minha decisão de seguir profissionalmente no mundo da tecnologia."
     },
     {
-      year: "2020",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      year: "2024",
+      description: "Em 2024, continuei avançando no curso técnico e aprofundei ainda mais meus conhecimentos em desenvolvimento. Nesse período, comecei a planejar minha entrada no ensino superior na área de programação e a visualizar meu futuro como desenvolvedor. No final do ano, iniciei um curso de front-end, que abriu portas para novas tecnologias e reforçou minha vontade de trabalhar com desenvolvimento web. Esse ano marcou a transição entre aprendizado técnico e preparação para a faculdade."
     },
     {
-      year: "2021",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      year: "2025",
+      description: "Já em 2025, entrei oficialmente no ensino superior cursando Engenharia de Software na UTFPR, dando início a uma nova fase mais avançada da minha formação. Concluí o curso de front-end que havia iniciado no ano anterior, fortalecendo minhas bases em desenvolvimento web moderno. Além disso, comecei a atuar como estagiário de desenvolvimento Java e de Suporte Técnico, vivenciando na prática o ambiente profissional e aplicando todos os conhecimentos acumulados ao longo desses anos."
     }
   ];
 
@@ -40,45 +40,6 @@ const AboutMe = () => {
               </p>
             </div>
           ))}
-        </div>
-        
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pt-12">
-          <div className="flex flex-col md:flex-row gap-8">
-            <div>
-              <p className="text-foreground mb-1">Meu contato:</p>
-              <p className="text-foreground font-medium">12 988888888</p>
-            </div>
-            <div>
-              <p className="text-foreground mb-1">Email:</p>
-              <p className="text-foreground font-medium">xxx@xyz.com</p>
-            </div>
-          </div>
-          <div className="flex gap-6">
-            <a 
-              href="https://github.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              <Github className="w-6 h-6" />
-            </a>
-            <a 
-              href="https://linkedin.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              <Linkedin className="w-6 h-6" />
-            </a>
-            <a 
-              href="https://yourwebsite.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              <Globe className="w-6 h-6" />
-            </a>
-          </div>
         </div>
       </div>
     </section>
